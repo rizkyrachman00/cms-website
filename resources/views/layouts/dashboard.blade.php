@@ -9,15 +9,20 @@
         {{ config('app.name') }} - @yield('title')
     </title>
     <!-- my-dashboard -->
+    <link rel="stylesheet" href="{{ asset('vendor/my-dashboard/css/dashboard.css') }}">
     <!-- fontawesome -->
+    <script src="{{ asset('vendor/fontawesome-free/js/all.min.js') }}"></script>
+
     <!-- icon flag -->
+    <link rel="stylesheet" href="{{ asset('vendor/flag-icon-css/css/flag-icon.min.css') }}">
+
 </head>
 
 <body>
     <!-- begin:navbar -->
     @include('layouts._dashboard.navbar')
     <!-- end:navbar -->
-    <div id="layoutSidenav">
+    <div id="layoutSidenav"> 
         <div id="layoutSidenav_nav">
             <!-- begin:sidebar -->
             @include('layouts._dashboard.sidebar')
@@ -48,8 +53,12 @@
     </div>
     <!-- scripts -->
     <!-- jquery -->
+    <script src="{{ asset('vendor/jquery/jquery-3.6.0.min.js') }}"></script>
     <!-- bootstrap bundle -->
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- my-dashboard -->
+    <script src="{{ asset('vendor/my-dashboard/js/dashboard.js') }}"></script>
+
 </body>
 
 </html>

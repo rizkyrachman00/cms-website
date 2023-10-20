@@ -9,7 +9,6 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="language" href="#" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-globe"></i>
                 <!-- lang:id -->
                 <i class="flag-icon flag-icon-id"></i>
                 <!-- lang:en -->
