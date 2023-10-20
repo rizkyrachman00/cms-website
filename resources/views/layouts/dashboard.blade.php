@@ -22,7 +22,7 @@
     <!-- begin:navbar -->
     @include('layouts._dashboard.navbar')
     <!-- end:navbar -->
-    <div id="layoutSidenav"> 
+    <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <!-- begin:sidebar -->
             @include('layouts._dashboard.sidebar')
